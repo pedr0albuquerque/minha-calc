@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F36262;
+    
+    font-family: sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 100vh;
+}
+
+#container{
+    background: #e83f3f;
+    border: 2px solid #470101;
+    box-shadow: -2px 4px 7px 0px #00000040;
+
+    
+    display: flex;
+    flex-direction: column;
+    
+    width: 414px;
+    height: 440px;
+
+}
+
+#title-container{
+    background-color: #790606;
+    color: #F36262;
+    border-bottom: 2px solid #470101;
+
+    text-align: center;
+    
+    padding: 8px 0 8px 0;
+}
+
+#sectionInputs{
+    color: #790606;
+
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    row-gap: 40px;
+}
+
+.inputs{
+    padding: 2px;
+    border-radius: 2px;
+    border-color: transparent;
+    color: #790606;
+}
+
+#inputAccountValue{
+    width: 50px;
+}
+
+#inputPeople{
+    width: 50px;
+}
+
+p{
+    color: #fff;
+
+    text-align: center;
+}
+
+#button-calc{
+    background-color: #F36262;
+    color: #1E1E1E;
+
+    font-weight: bold;
+
+    border-left: 4px solid #1E1E1E;
+    border-top: 2px solid #1E1E1E;
+    border-right: 2px solid #1E1E1E;
+    border-bottom: 4px solid #1E1E1E;
+
+    width: 250px;
+    height: 50px;
+    margin: auto;
+}
+
+#button-calc:hover{
+    background-color: #bd1010;
+    color: #fff;
+}
+
+#button-calc:active{
+    border-left: 2px solid #1E1E1E;
+    border-top: 1px solid #1E1E1E;
+    border-right: 1px solid #1E1E1E;
+    border-bottom: 2px solid #1E1E1E;
+}
+
